@@ -11,6 +11,9 @@ namespace OfficeInstallHelper
 {
     class Program
     {
+        // Define a class to receive parsed values
+        
+
         public static readonly string _uninstallC2r = Path.Combine(Environment.CurrentDirectory, "Scripts", "uninstallPrep.vbs");
         public static readonly string _pathToSetup = Path.Combine(Environment.CurrentDirectory, "Install", "setup.exe");
         public static readonly string _pathToConfiguration = Path.Combine(Environment.CurrentDirectory, "Install", "ConfigurationBasicBusiness.xml");
